@@ -5,7 +5,7 @@ services:
     image: ghcr.io/matatonic/openedai-speech-min
     env_file: speech.env
     ports:
-      - "8000:8000"
+      - "11434:8000"
     volumes:
       - ./voices:/app/voices
       - ./config:/app/config
